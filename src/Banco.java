@@ -5,7 +5,7 @@ public class Banco {
     }
 
     public void realizaTransferencia(Conta a, double valor, Conta c){
-        a.setSaldo(a.getSaldo - valor);
-        c.setSaldo(c.getSaldo - valor);
+        a.setSaldo(a.getSaldo() - valor);
+        c.setSaldo(c.getSaldo() - valor);
     }
 }

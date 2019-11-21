@@ -9,6 +9,7 @@ public class Conta {
         return this.saldo;
     };
 
-    public void setSaldo(double v) {
+    public void setSaldo(double saldo) {
+        this.saldo= saldo;
     }
 }
