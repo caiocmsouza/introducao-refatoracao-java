@@ -5,9 +5,17 @@ public class Conta {
         this.saldo = saldo;
     }
 
-    public double getSaldo(){
+    public double getSaldo() {
         return this.saldo;
-    };
+    }
+
+    public void deposita( double valor) {
+        this.saldo = this.saldo + valor;
+    }
+
+    public void saca(double valor) {
+        this.saldo = this.saldo - valor;
+    }
 
     public void setSaldo(double saldo) {
         this.saldo= saldo;

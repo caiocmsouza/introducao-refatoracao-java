@@ -1,11 +1,11 @@
 public class Banco {
 
     public void deposita(Conta c, double valor){
-        c.setSaldo(c.getSaldo+valor);
+        c.deposita(valor);
     }
 
     public void realizaTransferencia(Conta a, double valor, Conta c){
-        a.setSaldo(a.getSaldo() - valor);
-        c.setSaldo(c.getSaldo() - valor);
+        a.saca(valor);
+        c.deposita(valor);
     }
 }
