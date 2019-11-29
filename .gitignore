@@ -10,3 +10,4 @@ conta-corrente-alura-refatoracao/lib/*
 .vscode/settings.json
 conta-corrente-alura-refatoracao/bin/src/Banco.class
 conta-corrente-alura-refatoracao/bin/src/Conta.class
+.vscode/launch.json
