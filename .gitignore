@@ -1,3 +1,10 @@
 .idea/*
 introducao-refatoracao-java.iml
 .classpath
+lib/junit-4.13-rc-1.jar
+/.metadata/
+conta-corrente-alura-refatoracao/.settings/org.eclipse.jdt.core.prefs
+conta-corrente-alura-refatoracao/.project
+conta-corrente-alura-refatoracao/bin/Banco.class
+conta-corrente-alura-refatoracao/bin/Conta.class
+.vscode/settings.json
