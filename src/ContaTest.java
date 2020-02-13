@@ -2,9 +2,9 @@ import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class ContaTest {
+public class ContaTest {
 
 	@Test
 	public void aoSacarUmValorDeUmaContaOSaldoDeveSofrerUmaSubtracaoDesseValor() {
